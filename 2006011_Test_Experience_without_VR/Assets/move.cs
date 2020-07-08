@@ -23,9 +23,9 @@ public class move : MonoBehaviour
     Vector3 randomPosition()
     {
       Vector3 v = new Vector3(0,0,0);
-      v.x = Random.Range(-100, 100);
-      v.y = Random.Range(-100, 100);
-      v.z = Random.Range(-100, 100);
+      v.x = Random.Range(-10, 10);
+      v.y = Random.Range(-10, 10);
+      v.z = Random.Range(-10, 10);
       return v;
     }
     private static Quaternion rotationBox(float x, float y, float z){ return new Quaternion(x,y,z,1);}
